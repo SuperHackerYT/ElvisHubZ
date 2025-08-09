@@ -556,14 +556,14 @@ valueText.TextXAlignment = Enum.TextXAlignment.Left
 end
 
 AddInfo("Version:", "2.0.0", 0, true)
-AddInfo("Build date:", "Dec 30 2020", 1, true)
+AddInfo("Build date:", "Aug 10 2025", 1, true)
 AddInfo("Build type:", "Release", 2, true)
 AddInfo("Registered to:", LocalPlayer.DisplayName, 3, true)
-AddInfo("Subscription till:", "01.01.2021 21:07", 4, true)
+AddInfo("Subscription till:", "01.01.10000 00:00", 4, true)
 
 -- Footer
 local copyright = Instance.new("TextLabel", aboutFrame)
-copyright.Text = "ELVISHUBZ.cc © 2020"
+copyright.Text = "Elvis Gaming © 2025"
 copyright.Font = Enum.Font.Gotham
 copyright.TextSize = 12
 copyright.TextColor3 = Color3.new(255, 255, 255)
