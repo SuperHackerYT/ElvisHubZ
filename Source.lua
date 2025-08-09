@@ -238,8 +238,8 @@ local ELVISHUBZ = {
 		MewColor1 = Color3.fromRGB(8, 8, 8),
 		MewColor2 = Color3.fromRGB(8, 8, 8)
 	},
-	_Version="69.C",
-	_Name="ELVISHUBZ"
+	_Version="1.C",
+	_Name="ELVIS Z"
 }
 
 function ELVISHUBZ:AddWindow(NameScriptHub,Text,name,UICustomSize)
