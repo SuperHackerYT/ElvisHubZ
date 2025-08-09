@@ -239,7 +239,7 @@ local ELVISHUBZ = {
 		MewColor2 = Color3.fromRGB(8, 8, 8)
 	},
 	_Version="1.C",
-	_Name="ELVIS Z"
+	_Name="ELVISHUBZ"
 }
 
 function ELVISHUBZ:AddWindow(NameScriptHub,Text,name,UICustomSize)
@@ -509,7 +509,7 @@ titleh.Position = UDim2.new(0, 0, 0.12, 0)
 	
 -- Title
 local title = Instance.new("TextLabel", titleh)
-title.Text = "ELVIS Z"
+title.Text = "ELVISHUBZ"
 title.Font = Enum.Font.GothamBlack
 title.TextSize = 28
 title.TextColor3 = Color3.new(255, 255, 255)
