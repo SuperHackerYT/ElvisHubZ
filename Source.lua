@@ -509,7 +509,7 @@ titleh.Position = UDim2.new(0, 0, 0.12, 0)
 	
 -- Title
 local title = Instance.new("TextLabel", titleh)
-title.Text = "ELVISHUB Z"
+title.Text = "ELVIS Z"
 title.Font = Enum.Font.GothamBlack
 title.TextSize = 28
 title.TextColor3 = Color3.new(255, 255, 255)
