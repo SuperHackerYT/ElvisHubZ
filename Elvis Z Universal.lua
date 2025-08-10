@@ -19,6 +19,13 @@ Home:AddSlider('Gravity', 0, 500, 196, function(val)
     workspace.Gravity = val
 end)
 
+Home:AddSlider('Jump Height', 0, 200, 50, function(val)
+    local humanoid = game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+    if humanoid then
+        humanoid.JumpPower = val
+    end
+end)
+
 local UIS = game:GetService("UserInputService")
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
